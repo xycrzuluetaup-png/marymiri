@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: whitesmoke;
+    color: #333;
+    line-height:2;
+    font-family: Times New Roman, Times, serif;
+}
+
+header {
+    background-image: url("pictures/mary.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+
+header h1{
+    font-family: Quicksand, serif;
+    font-weight: bold;
+    font-size: auto;
+    text-align: center;
+    color:white;
+    position: relative;
+    text-shadow: 2px 2px 5px black;
+}
+header p {
+    font-family: serif;
+    color: ;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+
+nav {
+    background-color: #e9ecef;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px #ddd;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+
+nav ul li a:hover {
+    background-color: #d6d6d6;
+    border-radius: 15px;
+}
+
+
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #ddd;
+}
+.content h2{
+    color: #1e3a5f;
+    margin-top: 10px;
+
+}
+.content p{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-family: Lora, serif;
+}
+
+.content img {
+    width: 200px;
+    height: 200px;
+    max-width: 300px;
+    margin-top: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+    margin-Left:auto;
+    margin-right: auto;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border:2px solid #ddd;
+    box-shadow: 0 2px 5px #ddd;
+}
+
+.audio_box{
+    text-align: center;
+    text-decoration-color: black;
+    width: 400px;
+    background: darkgray;
+    height: 150px; 
+    border-radius: 15px;
+    box-shadow: 0 5px 5px #ddd; 
+    padding: 5px; 
+    margin-bottom: 30px;
+    margin-Left: 20px; 
+    margin-top: 30px;
+} 
+audio{
+    margin-right: auto;
+    width: 80%;
+
+}
+.video_box {
+    text-align: auto;
+    text-decoration-color: black;
+    width: 250px;
+    background: darkgray;
+    height: 450px; 
+    border-radius: 15px; 
+    box-shadow: 0 5px 5px darkgray;
+    padding: 20px;
+    margin-bottom:15px; 
+    margin-Left: 15px; 
+    margin-right: 15px;
+}
+
+video{
+    border-radius:20px; 
+    margin-right:10px; 
+    text-align: center; 
+    width:200px;
+    height: 300px;
+}
+footer {
+    margin-top:auto;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, #1e3a5f, #16324f);
+}
