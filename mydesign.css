@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: url("pictures/mary.jpg");
+    background-image: url("mary.jpg");
     background-size: cover;
     background-position: center;
     height: 250px;
